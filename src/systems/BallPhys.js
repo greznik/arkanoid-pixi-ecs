@@ -22,32 +22,6 @@ export class BallPhys {
         entity.dy *= -1
       }
     }
-
-    // for (let i = 0; i < entities.length; i++) {
-    //   const entity = entities[i]
-    //   const { dummy } = entity
-    //   console.log(dummy)
-    // if (dummy) {
-    //   entity.x += dummy.vx * delta
-    //   entity.y += dummy.vy * delta
-    //   if (entity.x < 0) {
-    //     entity.x = -entity.x
-    //     dummy.vx = -dummy.vx
-    //   }
-    //   if (entity.x > 720) {
-    //     entity.x = 720 * 2 - entity.x
-    //     dummy.vx = -dummy.vx
-    //   }
-    //   if (entity.y < 0) {
-    //     entity.y = -entity.y
-    //     dummy.vy = -dummy.vy
-    //   }
-    //   if (entity.y > 1280) {
-    //     entity.y = 1280 * 2 - entity.y
-    //     dummy.vy = -dummy.vy
-    //   }
-    // }
-    // }
   }
 
   entityAdded(entity) {}
