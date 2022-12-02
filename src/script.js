@@ -1,4 +1,4 @@
-// const canvas = document.getElementById('canvas')
+import * as PIXI from 'pixi.js'
 const app = new PIXI.Application({
   width: 800,
   height: 600,
@@ -10,7 +10,6 @@ const size = {
   width: app.view.width,
   height: app.view.height,
 }
-// Add a container to center our sprite stack on the page
 const container = new PIXI.Container()
 const graphics = new PIXI.Graphics()
 container.addChild(graphics)
